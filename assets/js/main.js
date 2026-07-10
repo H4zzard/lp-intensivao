@@ -7,7 +7,7 @@
 /* Oferta válida do dia 10/06/2026 até o dia 12/06/2026 (final do dia 23:59:59) */
 function initCountdown() {
   // Encerramento: 12/06/2026 às 23:59:59 (horário de Brasília -03:00)
-  const target = new Date("2026-06-12T23:59:59-03:00");
+  const target = new Date("2026-07-17T23:59:59-03:00");
 
   const els = {
     dias: document.getElementById("cd-dias"),
